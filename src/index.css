@@ -13,16 +13,6 @@
         @apply bg-dark-1 text-white min-h-screen font-inter;
     }
 }
- 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-      font-family: 'Poppins', sans-serif;
-
-    @apply bg-background text-foreground;
-  }
 
 @layer utilities {
 
@@ -289,5 +279,4 @@
     .shad-button_ghost {
         @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-white !important;
     }
-}}
-
+}
