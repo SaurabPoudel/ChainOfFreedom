@@ -42,7 +42,7 @@ const LeftSideBar = () => {
         name: "John Doe",
         username: "johndoe"
     };
-    const pathname = useLocation();
+    const {pathname} = useLocation();
   return (
     <nav className="leftsidebar">
         <div className="flex flex-col gap-11">
